@@ -6,8 +6,6 @@
 
 .App {
   text-align: center;
-  background: var(--light-green);
-  height: 100vh;
   padding: 100px;
 }
 
