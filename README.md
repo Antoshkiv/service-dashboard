@@ -43,4 +43,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 docker build . -t dockerized-react
 
-docker run -p 8080:8080 -d dockerized-react
+docker images | grep dockerized-react
+
+docker run -p 8080:3000 -d dockerized-react
