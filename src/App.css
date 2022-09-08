@@ -1,0 +1,75 @@
+:root {
+  --light-green: #f0fff1;
+  --green: #b3e9c7;
+  --light-violet: #8367c7;
+}
+
+.App {
+  text-align: center;
+  background: var(--light-green);
+  height: 100vh;
+  padding: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loader {
+  font-weight: bold;
+  color: var(--violet);
+}
+
+.error-wrapper {
+  color: var(--violet);
+}
+
+.error-wrapper__code {
+  font-size: 28px;
+}
+
+.assignment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: initial;
+  border: 1px solid var(--light-violet);
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.technician-info-container {
+  border: 1px solid var(--green);
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.service-list {
+  border: 1px solid var(--light-violet);
+  padding: 10px 10px 10px 40px;
+  margin: 10px;
+}
+
+.service-item__details {
+  margin: 10px 0;
+}
+
+.full-width {
+  width: 100%;
+}
